@@ -1,0 +1,6 @@
+{
+    "headers": {
+        "Content-Type": "application/json"
+    },
+    "body": "{\"name\": \"Frederic\", \"cellNumber\": \"+923023500988\"}"
+}

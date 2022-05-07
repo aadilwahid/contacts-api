@@ -1,0 +1,16 @@
+export enum ResponseMessage {
+  CREATE_CONTACT_SUCCESS = "Contact successfully added",
+  CREATE_CONTACT_FAIL = "Contact could not be added",
+  DELETE_CONTACT_SUCCESS = "Contact successfully deleted",
+  DELETE_CONTACT_FAIL = "Contact could not be deleted",
+  UPDATE_CONTACT_SUCCESS = "Contact successfully updated",
+  UPDATE_CONTACT_FAIL = "Contact could not be updated",
+  CONTACT_ALREADY_EXISTS = "Contact alreay exists.",
+  CONTACT_NOT_FOUND = "Contact not found",
+  CONTACT_FOUND = "Contact found",
+  ERROR = "Unknown error.",
+  SERVER_ERROR = "Server error.",
+  INVALID_REQUEST = "Invalid Request!",
+  GET_ITEM_ERROR = "Item does not exist",
+  SUCCESS = "Success",
+}
